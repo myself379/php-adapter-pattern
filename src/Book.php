@@ -1,7 +1,9 @@
 <?php
 namespace App;
 
-class Book
+use App\BookInterface;
+
+class Book implements BookInterface
 {
     public function open()
     {
